@@ -1,0 +1,13 @@
+/* Основной цвет страницы #757575 */
+/* Цвет заголовков и кнопок #212121 */
+
+:root{
+    --primiry-text-color: #757575;
+    --title-text-color: #212121;
+    --main-font-family: roboto;
+    }
+    
+    body{
+        color: var(--primiry-text-color);
+        font-family: var(--main-font-family);
+    }
