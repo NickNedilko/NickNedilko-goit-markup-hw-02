@@ -16,14 +16,12 @@ body{
 .link{
      text-decoration: none;
     }
-.link:hover, .link:focus{
-    color:#2196F3
-    }
+
 .list{
     list-style-type: none;
     }
     
-    .visually-hidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -56,15 +54,9 @@ body{
      line-height: 1.14;
      letter-spacing: 0.02em;
         
-     color: #212121;
     }
 .header-contact .link {
     color: var(--primiry-text-color)
-}
-
-.contact:hover,
-.contact:focus {
-    color: #2196F3;
 }
     /* Стилизация основного контента страницы */
 .hero-section{
@@ -146,7 +138,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
 }
-    .list-footer .link{
+.list-footer .link{
      color: rgba(255, 255, 255, 0.6);
 }
 .text-adress{
@@ -174,7 +166,8 @@ body{
     font-size: 16px;
     line-height: 1.88;
 }
-/* .contact:hover,
-.contact:focus {
-    color: #2196F3;
-} */
+/* Такой вопрос почему когда я вверху ставлю данные стили ниже которые, они применятются не к всем ссылкам, а когда разместил в подвале то все хорошо работает? */
+.link:hover,
+.link:focus {
+    color: #2196F3
+}
