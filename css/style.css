@@ -40,11 +40,10 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-        
+         
      color: #2196F3;
-    }
-
-    .logo-accient{
+}
+.logo-accient{
     color: #212121;
     }
 
@@ -52,9 +51,11 @@ body{
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
-     letter-spacing: 0.02em;
-        
+     letter-spacing: 0.02em; 
     }
+.site-nav .link{
+    color: #212121;
+}
 .header-contact .link {
     color: var(--primiry-text-color)
 }
@@ -82,12 +83,13 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    
-    color: #212121;
+}
+.main.button{    background-color: #2196F3;
+    color:#FFFFFF ;
 }
 .button:hover, .button:focus{
     color:#FFFFFF;
-    background: #2196F3;
+    background: #188CE8;
 }
 .section-title{
     font-weight: 700;
@@ -139,6 +141,7 @@ body{
     line-height: 1.71;
 }
 .list-footer .link{
+     font-style:normal;
      color: rgba(255, 255, 255, 0.6);
 }
 .text-adress{
